@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learn For Loops</title>
+</head>
+<body>
+    <b>Natural Number Generator<br></b>
+    <br>
+    <label for="no_input_stop">Input Any Number : </label>
+    <input id="no_input_stop" type="number">
+
+    <button onclick="sequence()">Submit</button>
+</body>
+
+<script>
+    function sequence(){
+    var stop=Number(document.getElementById("no_input_stop").value);
+        
+    for ( var i =0; i<stop; i++){
+          document.write(i);
+          document.write("<br>");  
+      } 
+  }
+
+</script>
+</html>
